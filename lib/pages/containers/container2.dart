@@ -118,7 +118,7 @@ class _Container2State extends State<Container2> {
       width: 160,
       height: 40,
       decoration: const BoxDecoration(
-          image: DecorationImage(image: AssetImage('assets/images/'), fit: BoxFit.contain)
+          image: DecorationImage(image: AssetImage('assets/images/download.png'), fit: BoxFit.contain)
       ),
     );
   }
