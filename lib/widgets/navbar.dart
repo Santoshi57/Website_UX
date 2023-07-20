@@ -50,9 +50,9 @@ class _NavBarState extends State<NavBar> {
           navLogo(),
           Row(
             children: [
-              navButton('Features'),
+              navButton('Home'),
               navButton('about us'),
-              navButton('Pricing'),
+              navButton('Contact'),
               navButton('Feedback'),
 
             ],

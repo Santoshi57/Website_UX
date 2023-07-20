@@ -32,7 +32,7 @@ class _Container2State extends State<Container2> {
           ),
         ),
         const SizedBox(height: 20,),
-        Text(' Hello World!! \nview my website',
+        Text(' Hello World!! \nI am Santoshi',
           textAlign: TextAlign.center,
           style: TextStyle(
               fontSize: w!/ 10,
@@ -40,7 +40,7 @@ class _Container2State extends State<Container2> {
               height: 1.2),
         ),
         const SizedBox(height: 10,),
-        Text('Lets explore the world ',
+        Text('Lets know about me! ',
           style: TextStyle(color: Colors.grey.shade600,fontSize: 16),
         ),
         //const SizedBox(height: 30,),
@@ -53,10 +53,10 @@ class _Container2State extends State<Container2> {
 
                 onPressed: (){},
                 icon: const Icon(Icons.arrow_drop_down),
-                label: const Text('Try free Demo'))
+                label: const Text('Resume'))
         ),
         const SizedBox(height: 20,),
-        Text('- web, ios and android',
+        Text('- Flutter Developer',
           style: TextStyle(color: Colors.grey.shade600,fontSize: 16),
         ),
         const SizedBox(height: 30,)

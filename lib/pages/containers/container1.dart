@@ -31,7 +31,7 @@ class _Container1State extends State<Container1> {
       ),
     ),
     const SizedBox(height: 20,),
-       Text(' Hello World!! \nview my website',
+       Text(' Hello World!! \nI am Santoshi.',
          textAlign: TextAlign.center,
          style: TextStyle(
              fontSize: w!/ 10,
@@ -39,7 +39,7 @@ class _Container1State extends State<Container1> {
              height: 1.2),
        ),
        const SizedBox(height: 10,),
-       Text('Lets explore the world ',
+       Text('Lets know about me!! ',
          style: TextStyle(color: Colors.grey.shade600,fontSize: 16),
        ),
        //const SizedBox(height: 30,),
@@ -52,10 +52,10 @@ class _Container1State extends State<Container1> {
 
                      onPressed: (){},
                      icon: const Icon(Icons.arrow_drop_down),
-                     label: const Text('Try free Demo'))
+                     label: const Text('Resume'))
              ),
              const SizedBox(height: 20,),
-             Text('- web, ios and android',
+             Text('- Flutter Developer',
                style: TextStyle(color: Colors.grey.shade600,fontSize: 16),
              ),
       const SizedBox(height: 30,)
@@ -74,14 +74,14 @@ class _Container1State extends State<Container1> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                children: [
-                 Text(' Hello World!! \nview my website',
+                 Text(' Hello World!! \nI am Santoshi',
                 style: TextStyle(
                   fontSize: w!/20,
                   fontWeight: FontWeight.bold,
                   height: 1.2),
                 ),
                  const SizedBox(height: 20,),
-                 Text('Lets explore the world ',
+                 Text('Lets know about me',
                  style: TextStyle(color: Colors.grey.shade600,fontSize: 20),
                  ),
                  const SizedBox(height: 20,),
@@ -96,10 +96,10 @@ class _Container1State extends State<Container1> {
 
                            onPressed: (){},
                            icon: const Icon(Icons.arrow_drop_down),
-                           label: const Text('Try free Demo'))
+                           label: const Text('Resume'))
                      ),
                      const SizedBox(width: 20,),
-                     Text('- web, ios and android',
+                     Text('- Flutter Developer',
                        style: TextStyle(color: Colors.grey.shade600,fontSize: 20),
                      )
                    ],
